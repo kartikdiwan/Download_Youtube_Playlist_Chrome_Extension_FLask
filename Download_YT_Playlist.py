@@ -109,7 +109,7 @@ def main():
         Playlist_Name, Links = Get_Links_From_Playlist(url)
         Download_From_Links(Playlist_Name, Links)
         return jsonify("Sucessfully downloaded Playlist:\n"+Playlist_Name)
-    return ""
+    return "Please make sure you are on a Youtube Playlist Page, reload the extension"
 
 if __name__ == '__main__':
     app.run(host = 'localhost', port = 8008, debug=False)
