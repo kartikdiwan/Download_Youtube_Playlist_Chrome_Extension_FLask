@@ -1,4 +1,4 @@
-# Download_Youtube_Playlist_Chrome_Extension_Flask
+# Download_Youtube_Vid-Playlist_Chrome_Extension_Flask
 
 Please follow the steps below to download Youtube Video and Playlist on your system locally:
 
